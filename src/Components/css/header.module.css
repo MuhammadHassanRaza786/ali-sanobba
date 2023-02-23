@@ -1,0 +1,26 @@
+.navbar{
+    
+    height: 66px;
+    background: #DAAD76 ;
+}
+.logo{
+ margin-left: 30px;
+    width: 65px;
+}
+.heading{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DAAD76;
+}
+.icon {
+    position: absolute;
+    top: 0;
+    left: 96%;
+    margin: 1rem;
+    font-size: 2rem;    
+    /* background-color: ; */
+    color:#153535;
+  }
+  

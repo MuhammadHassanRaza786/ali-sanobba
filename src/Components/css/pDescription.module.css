@@ -1,0 +1,166 @@
+/* .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px #ccc;
+}
+
+.img {
+  width: 40%;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text {
+  width: 50%;
+}
+
+.Ptitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.cartbtn {
+  width: 10%;
+  text-align: center;
+}
+
+.paddtocart {
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.paddtocart:hover {
+  background-color: #1e7e34;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.quantity label {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quantity input[type='number'] {
+  width: 50px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.quantity input[type='number']:focus {
+  border-color: #4caf50;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: #DAAD76;
+  border: 1px solid #153535;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px #ccc;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.Ptitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.image{
+  border-radius: 10px;
+  height: 200px;
+  width:300px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #153535;
+  margin-bottom: 10px;
+}
+
+.cartbtn {
+  margin-bottom: 20px;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity label {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quantity input[type='number'] {
+  width: 50px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #DAAD76;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.quantity input[type='number']:focus {
+  border-color:  #DAAD76;
+}
+
+.paddtocart {
+  width: 20%;
+  background-color: #153535;
+  color: #DAAD76;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.paddtocart:hover {
+  background-color: #000707;
+  color: #DAAD76;
+}

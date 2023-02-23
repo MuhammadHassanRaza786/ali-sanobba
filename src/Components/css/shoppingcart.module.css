@@ -1,0 +1,128 @@
+/* shoppingcart.module.css */
+
+.cartarea {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    
+  }
+  
+  .cart {
+    background-color: #DAAD76;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .Cheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color:#153535;
+  }
+  
+  .Ctitle {
+    color: #DAAD76;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Cremove {
+    color: #999;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .CItems {
+    background-color: #153535;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .Cimg {
+    margin-right: 20px;
+  }
+  
+  .slipper {
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  .Cabout {
+    flex-grow: 1;
+  }
+  
+  .Cabout h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Ccounter {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .Cpbtn {
+   background-color: #DAAD76;
+   color: #153535;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    height: 25px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .Ccount {
+    border: 1px solid #DAAD76;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .Cprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: auto;
+  }
+  
+  .Camount {
+    color: #DAAD76;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .Cremove {
+    color: #f00;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  .CHobtn{
+    width: 90px;
+    margin-left: 300px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #DAAD76;
+    background-color:#153535;
+  }
